@@ -1,0 +1,12 @@
+# Nmap 7.91 scan initiated Sun Feb 21 22:18:23 2021 as: nmap -T4 -sV -sC -p- -oN nmap/initial 10.10.10.74
+Nmap scan report for 10.10.10.74
+Host is up (0.13s latency).
+Not shown: 65533 filtered ports
+PORT     STATE SERVICE VERSION
+9255/tcp open  http    AChat chat system httpd
+|_http-server-header: AChat
+|_http-title: Site doesn't have a title.
+9256/tcp open  achat   AChat chat system
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Feb 21 22:23:49 2021 -- 1 IP address (1 host up) scanned in 326.38 seconds
