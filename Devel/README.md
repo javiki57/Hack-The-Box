@@ -51,8 +51,6 @@ ftp> ls
 
 It feels that we have a default welcome page. We can try to upload something malicious to the ftp service.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/463cfb1e-014c-4466-9844-1ff2acfc35f2/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/463cfb1e-014c-4466-9844-1ff2acfc35f2/Untitled.png)
-
 Welcome IIS7 page.
 
 Let's create a payload with msfvenom.
