@@ -1,0 +1,22 @@
+No information in smbclient.
+
+I NEED TO LEARN AD ATTACKS BEFORE GOING ON THIS MACHINE
+
+Burp Suite information:
+
+
+POST /downloads?client=navclient-auto-ffox&appver=68.8&pver=2.2
+
+ads-track-digest256;a:1581543360
+mozstd-trackwhite-digest256;a:1589483333
+block-flash-digest256;a:1496263270
+except-flash-digest256;a:1494877265
+except-flashsubdoc-digest256;a:1517935265
+social-track-digest256;a:1583860003
+allow-flashallow-digest256;a:1490633678
+analytics-track-digest256;a:1581379643
+mozplugin-block-digest256;a:1471849627
+content-track-digest256;a:1576857797
+block-flashsubdoc-digest256;a:1512160865
+base-track-digest256;a:1583860003
+except-flashallow-digest256;a:1490633678

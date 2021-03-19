@@ -1,0 +1,18 @@
+22/tcp open  ssh     OpenSSH 7.6p1 Ubuntu 4ubuntu0.3
+
+80/tcp open  http    Apache httpd 2.4.29
+
+Information Disclosure Apache/2.4.29 (Ubuntu) Server at 10.10.10.28 Port 80
+
+Access ID	 Name		Email
+34322		admin		admin@megacorp.com
+
+Brand ID	Model	   	Price
+10		MC-1123	$110,240
+
+Client ID	Name	Email
+1		Tafcz	john@tafcz.co.uk
+
+
+Access ID	Name		Email
+86575	30	super admin	superadmin@megacorp.com
