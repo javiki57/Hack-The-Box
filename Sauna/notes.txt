@@ -1,6 +1,5 @@
 No information in smbclient.
 
-I NEED TO LEARN AD ATTACKS BEFORE GOING ON THIS MACHINE
 
 Burp Suite information:
 
